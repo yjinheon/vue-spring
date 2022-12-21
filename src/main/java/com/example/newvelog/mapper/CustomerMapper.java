@@ -7,6 +7,8 @@ import java.util.List;
 /*
 Mapper인터페이스란?
 
+정의해놓은 sql과 개발할 때 사용하는 메소드를 연결하고 결과 값을 정의해놓은 타입으로 매핑 시켜주는 것
+
 Mybatis 매핑XML에 기재된 SQL을 호출하기 위한 인터페이스이다. Mybatis3.0부터 생겼다.
 Mapper인터페이스를 사용하지 않을 경우
 
