@@ -1,14 +1,19 @@
+## lombok ?????? Enable annotation processing ??
 ## Postgresql
 spring:
-datasource:
-username: admin
-password: admin
-mapper-locations: classpath:/mapper/**/*.xml
-jdbc-url: jdbc:postgresql://localhost:5432/dvdrental
-driver: org.postgresql.Driver
+  datasource:
+    username: admin
+    password: admin
+    mapper-locations: classpath:/mapper/**/*.xml
+    jdbc-url: jdbc:postgresql://localhost:5432/dvdrental
+    driver: org.postgresql.Driver
 
 # mybatis ?? ??
 mybatis:
-configuration:
-map-underscore-to-camel-case: true
-config-location: classpath:/mybatis/mybatis-config.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  config-location: classpath:/mybatis/mybatis-config.xml
+
+# vue ? ?? ?? ?? ?? ?? 8081? ??
+server:
+  port: 8081
