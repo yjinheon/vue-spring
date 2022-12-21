@@ -1,0 +1,14 @@
+## Postgresql
+spring:
+datasource:
+username: admin
+password: admin
+mapper-locations: classpath:/mapper/**/*.xml
+jdbc-url: jdbc:postgresql://localhost:5432/dvdrental
+driver: org.postgresql.Driver
+
+# mybatis ?? ??
+mybatis:
+configuration:
+map-underscore-to-camel-case: true
+config-location: classpath:/mybatis/mybatis-config.xml
